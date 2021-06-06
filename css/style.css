@@ -1,0 +1,247 @@
+
+/* general*/
+.clear{
+    clear: both;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.container-right{
+    width: 95%;
+    margin-left:5%;
+}
+.zar:hover,.zer:hover{
+    opacity: .7;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: helveticaneuew01-95blac,sans-serif;
+
+}
+a,button{
+    outline: none;
+}
+/*home one*/
+.home-one{
+    background-image: url(../imge/background1.webp);
+    height: 1080px;
+}
+.img1{
+    padding-top: 20px;
+}
+.home1-head{
+    font-size: 80px;
+    color: white;
+    margin-top: 160px;
+    text-align: center;
+    font-weight: 1500px;
+    text-transform: capitalize;
+}
+.home1-head3{
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    font-size: 24px;
+    text-transform: capitalize;
+
+}
+.home-but{
+    color: rgb(92, 42, 209);
+    font-size: 20px;
+    text-transform: capitalize;
+    width: 180px;
+    padding: 18px;
+    border: none;
+    border-radius: 30px;
+    margin: 55px 0px 0px 460px;
+
+}
+/*home two*/
+.home-two{
+    padding: 170px 0px;
+}
+.headtwo{
+    color: #20303C;
+    font-size: 72px;
+    font-weight: 1500px;
+    text-transform: capitalize;
+}
+.head-two{
+    text-align: center;
+}
+.child{
+    float: left;
+    width: 50%;
+    text-align: center;
+    height: 250px;
+    padding-top: 20px;
+}
+.two{
+    font-size: 40px;
+    margin-top: 15px;
+   
+}
+.three, .four{
+    font-size: 20px;
+    padding-top: 15px;
+}
+.add{
+    margin: 60px 0px;
+    color: #20303C;
+}
+.zer{
+   background-color: rgb(92, 42, 209);
+    font-size: 20px;
+    text-transform: capitalize;
+    width: 180px;
+    padding: 18px;
+    border: none;
+    border-radius: 30px;
+    margin: 0px 0px 0px 460px;
+    color: white;
+}
+/*home three*/
+.home-three{
+    background-image: url(../imge/background2.webp);
+    height: 1080px;
+}
+.two-part{
+    padding: 350px 0px;
+}
+.see{
+    float: left;
+    width: 50%;
+}
+.zar{
+    background-color: rgb(92, 42, 209);
+     font-size: 20px;
+     text-transform: capitalize;
+     width: 180px;
+     padding: 18px;
+     border: none;
+     border-radius: 30px;
+     margin: 60px 0px 0px 0px;
+     color: white;
+ }
+ .chan{
+     position:  relative;
+     height: 380px;
+ }
+ .change{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     opacity: 0;
+     visibility: hidden;
+     transition: visibility 1s opacity 1s;
+ }
+/*home four */
+.home-four{
+    padding: 160px 0px;
+}
+.ht{text-align: center;
+
+}
+.er{
+    margin-top: 45px;
+}
+.footer{
+    background-color: rgb(237, 237, 237);
+    height: 200px;
+}
+.foot-head{
+    text-align: center;
+    font-size: 20px;
+    padding: 50px 0px;
+}
+.left-foot{
+    float: left;
+  
+}
+.left-foot>li{
+    display: inline-block;
+}
+.left-foot>li>a{
+   
+    color: #20303C;
+    padding: 0px 0px 20px 50px;
+    list-style: none;
+    text-decoration: none;
+}
+.right-foot{
+    float: right;
+}
+.foot{
+    margin-top: 30px;
+}
+/**************min page*/
+.tit{
+    padding: 50px 0px;
+}
+.choose{
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #20303C;
+}
+.part,.or{
+    float: left;
+}
+.part{
+    width: 40%;
+    padding: 220px 70px;
+    text-align: center;
+}
+.part-1{
+    font-size: 45px;
+    color: #20303C;
+}
+.part-2{
+    font-size: 20px;
+    padding-top: 20px;
+    line-height: 27px;
+}
+.part-3{
+    background-color: rgb(54, 145, 230);
+    font-size: 17px;
+    text-transform: capitalize;
+    width: 180px;
+    padding: 15px;
+    border: none;
+    border-radius: 25px;
+    margin: 30px 0px 0px 0px;
+    color: white;
+
+}
+.or{
+    width: 20%;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(54, 145, 230);
+    font-weight: bold;
+    padding-top: 30px;
+}
+.or:before{
+    content: "";
+    width: 2px;
+    height: 290px;
+    background-color: rgb(54, 145, 230);
+    display: block;
+  margin: auto;
+
+}
+.or:after{
+    content: "";
+    width: 2px;
+    height: 290px;
+    background-color: rgb(54, 145, 230);
+    display: block;
+    margin: auto;
+
+}
